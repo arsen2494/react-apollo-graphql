@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const Recipe = require('./models/Recipe');
 const User = require('./models/User');
 
-require('dotenv').config({path: 'variables.env'});
+require('dotenv').config({ path: 'variables.env' });
 
 // Connects to database
 mongoose
